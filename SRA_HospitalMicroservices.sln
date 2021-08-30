@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F12F371C-6835-4E16-AF00-59F9C067DC44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmacyDetails.API", "Services\PharmacyDetails.API\PharmacyDetails.API.csproj", "{B503DAA5-CC8F-475A-94E6-0378FCF2958B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{48EC8DF5-76DA-42D7-902C-D82BF9C66F0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VaccineRegister", "VaccineRegister", "{EFBD683C-B67C-4B87-A653-E5531DDFFCB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaccinesRegister.API", "Services\VaccineRegister\VaccinesRegister.API\VaccinesRegister.API.csproj", "{431F200F-7968-4F66-9F8F-71861158CFC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaccinesRegister.UnitTests", "Services\VaccineRegister\VaccinesRegister.UnitTests\VaccinesRegister.UnitTests.csproj", "{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{FF54B966-486F-4B29-850B-C9A5354CBCAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B503DAA5-CC8F-475A-94E6-0378FCF2958B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B503DAA5-CC8F-475A-94E6-0378FCF2958B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B503DAA5-CC8F-475A-94E6-0378FCF2958B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B503DAA5-CC8F-475A-94E6-0378FCF2958B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EC8DF5-76DA-42D7-902C-D82BF9C66F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EC8DF5-76DA-42D7-902C-D82BF9C66F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EC8DF5-76DA-42D7-902C-D82BF9C66F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EC8DF5-76DA-42D7-902C-D82BF9C66F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431F200F-7968-4F66-9F8F-71861158CFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431F200F-7968-4F66-9F8F-71861158CFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431F200F-7968-4F66-9F8F-71861158CFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431F200F-7968-4F66-9F8F-71861158CFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF54B966-486F-4B29-850B-C9A5354CBCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF54B966-486F-4B29-850B-C9A5354CBCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF54B966-486F-4B29-850B-C9A5354CBCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF54B966-486F-4B29-850B-C9A5354CBCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B503DAA5-CC8F-475A-94E6-0378FCF2958B} = {F12F371C-6835-4E16-AF00-59F9C067DC44}
+		{EFBD683C-B67C-4B87-A653-E5531DDFFCB7} = {F12F371C-6835-4E16-AF00-59F9C067DC44}
+		{431F200F-7968-4F66-9F8F-71861158CFC7} = {EFBD683C-B67C-4B87-A653-E5531DDFFCB7}
+		{A7CF1BEC-21AC-4FB2-8D57-CF71C4AAF447} = {EFBD683C-B67C-4B87-A653-E5531DDFFCB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0CD3CB0-154C-4724-B627-6ECD75EC662B}
+	EndGlobalSection
+EndGlobal
